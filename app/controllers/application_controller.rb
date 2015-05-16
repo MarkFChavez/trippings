@@ -6,5 +6,6 @@ class ApplicationController < ActionController::Base
   before_action :authenticate_user!
 
   def index
+    redirect_to admin_dashboard_url
   end
 end

@@ -16,8 +16,8 @@ class @Globals
 $ ->
   Globals.init()
 
-$(document).on "page:change", ->
-  Globals.init()
+# $(document).on "page:change", ->
+#   Globals.init()
 
 $(document).on "page:load", ->
   Globals.init()
