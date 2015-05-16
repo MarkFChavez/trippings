@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'devise'
+gem 'bootstrap-sass'
 
 group :development do
   gem 'sqlite3'
